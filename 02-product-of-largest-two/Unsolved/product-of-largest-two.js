@@ -16,21 +16,3 @@ var productOfLargestTwo = function(arr) {
     }
     return largest * secLargest;
 };
-
-// var productOfLargestTwo = function (arr) {
-//     var largest = null;
-//     var secondLargest = null;
-  
-//     for (var i = 0; i < arr.length; i++) {
-//       var currentNumber = arr[i];
-  
-//       if (currentNumber > largest || largest === null) {
-//         secondLargest = largest;
-//         largest = currentNumber;
-//       } else if (currentNumber > secondLargest || secondLargest === null) {
-//         secondLargest = currentNumber;
-//       }
-//     }
-  
-//     return largest * secondLargest;
-//   };
